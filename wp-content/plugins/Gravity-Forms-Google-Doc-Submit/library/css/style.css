@@ -1,0 +1,44 @@
+.error{
+	color: red;
+}
+
+#gf_google_doc_submit_edit_form label{
+	width: 110px;
+	display: block;
+	float: left;
+}
+
+#gf_google_doc_submit_edit_form label.error{
+	width: inherit;
+	display: inherit;
+	float: none;
+}
+
+#gf_google_doc_submit_edit_form .element{
+	margin-top: 10px;
+}
+
+
+#gf_google_doc_submit_add_form label{
+	width: 110px;
+	display: block;
+	float: left;
+}
+
+#gf_google_doc_submit_add_form label.error{
+	width: inherit;
+	display: inherit;
+	float: none;
+}
+
+#gf_google_doc_submit_add_form .item{
+	margin-top: 10px;
+}
+
+
+.gf_google_doc_submit_delete input[type="submit"]{
+	border: none !important;
+	background: none !important;
+	cursor: pointer;
+	color: #2ea2cc;
+}
